@@ -1,0 +1,21 @@
+meta {
+  name: Chat
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/api/chat
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "message": "What is Spring AI in one sentence?"
+  }
+}
