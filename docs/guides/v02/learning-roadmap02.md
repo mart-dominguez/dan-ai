@@ -48,7 +48,7 @@ Cada vino del catálogo tiene campos como: `name`, `type`, `grape variety`, `reg
 
 ## Convención de documentación
 
-Cada hito genera **un archivo Markdown** en la carpeta `docs/` con un número correlativo y un nombre en inglés (kebab-case), siguiendo el orden del roadmap:
+Cada hito genera **un archivo Markdown** en la carpeta `docs/guides/v02` con un número correlativo y un nombre en inglés (kebab-case), siguiendo el orden del roadmap:
 
 | # | Archivo                         | Hito                                                     |
 |---|---------------------------------|----------------------------------------------------------|

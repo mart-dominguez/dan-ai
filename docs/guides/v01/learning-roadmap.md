@@ -80,7 +80,7 @@ RAG flow:
 
 ## Documentation Naming Convention
 
-Each milestone should generate one Markdown file under `docs/`.
+Each milestone should generate one Markdown file under `docs/guides/v01`.
 
 Use a numeric prefix, English file names, and kebab-case:
 

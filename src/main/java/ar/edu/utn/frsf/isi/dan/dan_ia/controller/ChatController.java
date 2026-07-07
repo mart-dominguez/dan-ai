@@ -18,7 +18,11 @@ public class ChatController {
 
 	public ChatController(ChatClient.Builder chatClientBuilder) {
 		this.chatClient = chatClientBuilder
-				.defaultSystem("You are a helpful assistant. Answer in simple words and keep the response concise.")
+				.defaultSystem("""
+						You are a helpful wine recommendation assistant.
+						Answer in simple words, keep responses concise, and explain uncertainty clearly.
+						When catalog context is not provided, say that you cannot verify whether a wine exists in the catalog.
+						""")
 				.defaultOptions(OllamaChatOptions.builder()
 						.temperature(0.3)
 						.numPredict(512)
